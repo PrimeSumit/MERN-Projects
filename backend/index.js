@@ -28,7 +28,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/order', orderRoutes);
 
 app.get('/',(req,res)=>{
-    res.send("welcome to index page")
+    res.send("welcome to index page ")
 })
 
 app.listen(port,()=>{
