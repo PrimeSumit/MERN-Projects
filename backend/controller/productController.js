@@ -83,8 +83,6 @@ export const updateProduct = async (req, res) => {
     }
 };
 
-
-
 // Get products with pagination and filters
 export const getProducts = async (req, res) => {
     const { page = 1, limit = 10, status, category, seller, minPrice, maxPrice } = req.query;
